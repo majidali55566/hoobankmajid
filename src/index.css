@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+h1{
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 100.8px;
+}
+h3{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 76.8px;
+  color: white;
+  
+}
+
+p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30.6px;
+
+  color: rgb(255 255 255 / 0.7);
+}
+
+
+.dummy{
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.bg-black-gradient-2 {
+  background: linear-gradient(-168.39deg,#ffffff -278.56%,#6d6d6d -78.47%,#11101d 91.61%);
+}
+
